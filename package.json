@@ -16,19 +16,7 @@
     "lint:prettier": "prettier --config .prettierrc 'src/**/*.ts'",
     "lint:prettier:fix": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
-   "scripts": {
-    "server": "http-server -c-1 -p 9000",
-    "start1": "nodemon app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "sonar": "node sonar-project.js"
-  }, 
-    "devDependencies": {
-    "nodemon": "^1.18.9",
-    "sonarqube-scanner": "^2.7.0"
-  },
-  
-  
+   
   "author": "Cogent Labs SPE member",
   "license": "MIT",
   "jest": {
