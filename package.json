@@ -61,7 +61,7 @@
 },
 
 
-  },
+ 
   "scripts": {
     "server": "http-server -c-1 -p 9000",
     "start1": "nodemon app.js",
